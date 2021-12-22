@@ -143,10 +143,10 @@
 .update_quxiao1{
 	position: absolute;
 	left: 0;
-	background-image: url(../../ui/frameUi/cancel.png);
+	background-image: url(../../assets/frameUi/cancel.png);
 }
 .update_confirm1{
 	position: absolute;
-	background-image: url(../../ui/frameUi/confirm.png);
+	background-image: url(../../assets/frameUi/confirm.png);
 	right: 0;
 }

@@ -1,13 +1,13 @@
 .popup {
-		background-image: url(../../ui/frameUi/popupBg.png);
+		background-image: url(../../assets/frameUi/popupBg.png);
 	}
 
 	.clickEffict {
-		background-image: url(../../ui/frameUi/regisorBg.png);
+		background-image: url(../../assets/frameUi/regisorBg.png);
 	}
 
 	.detail-box {
-		background-image: url(../../ui/frameUi/popupBg.png);
+		background-image: url(../../assets/frameUi/popupBg.png);
 	}
 
 	.p_title {
@@ -68,7 +68,7 @@
 		color: #FEFEFE;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
-		background-image: url(../../ui/frameUi/confirm1.png);
+		background-image: url(../../assets/frameUi/confirm1.png);
 		;
 	}
 
@@ -99,6 +99,7 @@
 		text-align: center;
 		line-height: 5vh;
 		color: #205183;
+		font-size: 18px;
 		font-weight: bold;
 
 	}
