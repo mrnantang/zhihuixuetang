@@ -1,0 +1,110 @@
+.videoBox {
+    width: 700px;
+    height: 400px;
+    position: absolute;
+}
+
+.video {
+    width: 700px;
+    height: 400px;
+}
+
+.control {
+    width: 700px;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    vertical-align: center;
+
+}
+
+.videoMask {
+    width: 700px;
+    height: 60px;
+    position: absolute;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 2;
+}
+
+.video_but_box {
+    z-index: 3;
+    width: 700px;
+    height: 30px;
+    flex-direction: row;
+    display: flex;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+.video_progress_box{
+    z-index: 3;
+    width: 700px;
+    height: 30px;
+    flex-direction: row;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+}
+
+.videoBut {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video_but_box > view {
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 5px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.videoBut > view > text {
+    font-size: 2em;
+}
+
+.videoTime {
+    height: 30px;
+    line-height: 30px;
+
+}
+
+.progress {
+    width: 700px;
+    height: 30px;
+    background-color: red;
+}
+
+.progress_range {
+    width: 680px;
+    position: absolute;
+}
+
+.Time {
+    margin-left: 5px;
+}
+
+.video_but_box1 {
+    float: right;
+    right: 1vw;
+    position: absolute;
+}
+
+.note {
+    z-index: 99;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    /*margin: auto;*/
+}
+.video_progress_box>view{
+    /*width: 700px;*/
+    /*height: 30px;*/
+
+}

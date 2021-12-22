@@ -1,0 +1,196 @@
+#boxes {
+	background-image: url(img/bj.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	color: black;
+}
+
+
+.input {
+	display: inline-block;
+
+}
+
+.uploadBox {
+
+	width: 90vw;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.activeBox {
+	width: 90vw;
+	height: 10vh;
+	margin-top: 3vh;
+	text-align: center;
+}
+
+.middle_bot_boxes {
+	width: 78vw;
+	height: 78vh;
+	margin-top: 3vh;
+	margin: auto;
+	overflow-x: visible;
+	overflow-y: scroll;
+	display: flex;
+}
+
+.activeInput {
+	width: 32vw;
+	height: 7.6vh;
+	border: 1px solid #F1F1F3;
+	background-color: #FFFFFF;
+	border-radius: 1vh;
+}
+
+.acitveButton {
+	width: 8.6vw;
+	height: 7.6vh;
+	background-color: #7B7899;
+	color: white;
+	letter-spacing: 0.5vw;
+	margin-left: 1vw;
+	border-radius: 1vw;
+	text-align: center;
+	line-height: 7.6vh;
+}
+
+.acitveButton:active {
+	width: 8vw;
+	height: 7vh;
+	margin-left: 1.3vw;
+	line-height: 7vh;
+
+}
+
+.activeBox1 {
+	width: 45vw;
+	display: flex;
+	margin: auto;
+	flex-direction: row;
+}
+
+.boxes_items {
+
+	min-width: 20vw;
+	min-height: 28vh;
+	display: inline-block;
+	margin-top: 2vh;
+	margin: auto;
+
+
+}
+
+.boxes_items_item {
+	width: 25.5vw;
+	margin-top: 1vh;
+	height: 35.5vh;
+	position: relative;
+	display: inline-block;
+}
+
+.cover_boxes {
+	width: 19vw;
+	height: 28vh;
+	position: absolute;
+	margin-left: 3.3vw;
+	border-radius: 1vh;
+
+}
+
+.cover_progress_box {
+	position: absolute;
+	margin-top: 28vh;
+	border: 0.5vh solid #707F95;
+	margin-left: 3.8vw;
+	border-radius: 1vh;
+	display: flex;
+	flex-direction: row;
+
+}
+
+.active_status {
+	width: 6.7vw;
+	height: 7.8vh;
+	border: 0.2vh solid #6C7891;
+	border-radius: 1vh;
+	right: 0;
+	float: right;
+	font-size: 2vw;
+	text-align: center;
+	line-height: 7.8vh;
+	font-weight: 600;
+	color: #6C7891;
+}
+
+.active_title {
+	width: 19vw;
+	height: 28vh;
+	font-size: 4vw;
+	float: left;
+	line-height: 28vh;
+
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px 1px #000, -1px -1px 1px #fff;
+}
+
+.mak_img {
+	width: 19vw;
+	height: 28vh;
+	position: absolute;
+	z-index: -1;
+
+}
+
+.cover_progress_box>div {
+	height: 6.7vh;
+}
+
+.cover_progress_bar {
+	width: 14vw;
+	border-radius: 0.2vh;
+
+
+}
+
+.cover_download_box {
+	width: 3.6vw;
+	background-color: #667D99;
+	border-radius: 0.4vh;
+
+
+}
+
+.cover_percentage {
+	width: 14vw;
+	height: 7vh;
+	position: absolute;
+	line-height: 7vh;
+	text-align: center;
+	color: #707F95;
+	font-weight: 600;
+}
+
+.cover_progress_bar1 {
+	width: 2vw;
+	height: 6.6vh;
+	margin-left: 0.1vh;
+	border-radius: 0.4vh;
+	background-color: white;
+}
+
+.download_img {
+	width: 2.7vw;
+	margin-left: 0.6vw;
+	margin-top: 0.5vh;
+
+
+}
+
+.download_img:active {
+	width: 2vw;
+	margin-left: 0.75vw;
+	margin-top: 1.4vh;
+}

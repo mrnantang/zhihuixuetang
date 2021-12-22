@@ -1,0 +1,25 @@
+.control{
+    width: 8vw;
+    height: 5.8vw;
+    position: fixed;
+    z-index: 9;
+    bottom: 20vh;
+    float: right;
+    right: 1vw;
+    text-align: center;
+    line-height: 8vw;
+}
+.mask{
+    width: 8vw;
+    height: 8vw;
+    background-color: black;
+    opacity: 0.2;
+    z-index: 1;
+    position: absolute;
+}
+.control_span{
+    width: 8vw;
+    height: 8vw;
+    z-index: 10;
+    position: absolute;
+}

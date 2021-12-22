@@ -1,0 +1,107 @@
+[v-cloak] {
+	display: none !important;
+}
+
+
+/* 4.9修改开始 */
+#boxes {
+	    background-image: url(../../assets/img/index_bg_iphone.jpg);
+	    background-repeat: no-repeat;
+	    background-position: center 100%;
+	    background-size: cover;
+	}
+/* 4.9修改结束 */
+
+.bodty {
+	width: 100vw;
+	height: 100vh;
+}
+
+.progress_bar {
+	width: 68vw;
+	height: 5.5vh;
+	bottom: 16vh;
+	position: absolute;
+	left: 16vw;
+	line-height: 5.5vh;
+	background-color: white;
+	border-radius: 2vw;
+	border: 0.2vw solid #6A1117;
+	overflow: hidden;
+}
+
+.progress_msg {
+	width: 96vw;
+	height: 4.5vh;
+	bottom: 10vh;
+	position: absolute;
+	left: 2vw;
+	text-align: center;
+	line-height: 4.5vh;
+	color: #892625;
+	font-size: 1.8vw;
+	font-weight: 600;
+}
+
+.progress_bar_box {
+	background-color: #872622;
+	border-top-left-radius: 1vh;
+	border-bottom-left-radius: 1vh;
+	height: 5.5vh;
+	width: 0vw;
+}
+
+.consoleBox {
+	width: 96vw;
+	margin-left: 2vw;
+	height: 80vh;
+	margin-top: 2vh;
+	position: absolute;
+	color: white;
+	overflow-y: scroll;
+	border: 1px solid black;
+
+
+}
+
+.logo {
+	width: 8vw;
+	height: 13.3vw;
+	position: fixed;
+	margin-left: 1.6vw;
+	margin-top: 2vh;
+	background-image: url(../../assets/img/logoB.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.logo>image {
+	max-width: 7.5vw;
+	max-height: 12.5vw;
+}
+
+.inforBox {
+	width: 86vw;
+	height: 63.5vh;
+	margin-left: 7vw;
+	margin-top: 9.5vh;
+	background-image: url(../../assets/img/infoB.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.inforBoxB {
+	width: 68vw;
+	height: 36vh;
+	overflow-y: scroll;
+	color: #000000;
+
+}

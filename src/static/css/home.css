@@ -1,0 +1,388 @@
+.header_left {
+	width: 70vw;
+	height: 6.4vw;
+	line-height: 6.4vw;
+	overflow-y: hidden;
+	overflow-x: auto;
+	white-space: nowrap;
+
+}
+
+
+.header_right {
+	width: 10vw;
+	vertical-align: middle;
+	font-weight: 900;
+	color: #6A809F;
+	display: flex;
+	margin-left: 3vw;
+
+}
+
+.home_title_box {
+	height: 6.4vw;
+	font-size: 2.2vw;
+	/*display: inline-block;*/
+	line-height: 6.4vw;
+	width: 9vw;
+	text-align: left;
+
+}
+
+/*.header_left > div {
+    width: 15vw;
+    height: 6.4vw;
+    text-align: center;
+    font-size: 2.2vw;
+    vertical-align: middle;
+    display: inline-block;
+    text-overflow: ellipsis;
+    /*文本超出隐藏*/
+/* -o-text-overflow: ellipsis; */
+/*跟上面一样，只是为了兼容其他浏览器*/
+/* overflow: hidden; */
+/*隐藏，跟text-overflow配合使用*/
+/* } */
+
+/* .header_left > div > div {
+    text-align: center;
+    display: flex;
+    vertical-align: middle;
+    height: 6.4 vq;
+    line-height: 6.4vw;
+    flex-direction: row;
+    align-items: center;
+/ / 子元素垂直居中 display: -webkit-flex;
+} */
+
+.line_box {
+	position: absolute;
+	border-bottom: 2px solid red;
+}
+
+.header_img_box {
+	width: 7.4vw;
+	height: 5.9vw;
+	line-height: 5.9vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header_img_box>text {
+	font-size: 3vw;
+	color: #6A809F;
+	font-weight: 300;
+}
+
+.header_img {
+/* 	width: 5.5vw;
+	height: 5vw; */
+	width: 100%;
+	height:100%;
+
+	opacity: 1;
+	/* vertical-align: super; */
+}
+
+.home_title {
+	color: #000000;
+	text-align: center;
+		/*width: 16vw;*/
+	font-weight: 700;
+	opacity: 0.8;
+	font-size: 2.2vw;
+}
+
+.header_title_unit {
+	color: #852720;
+}
+
+.header_title1 {
+	text-align: left;
+	font-weight: 700;
+	opacity: 1;
+	color: #822822;
+	/*width: 16vw;*/
+}
+
+
+.header_img1 {
+	width: 4vw;
+	height: 4vw;
+	/*  opacity: 1;
+    filter: none; */
+}
+
+.header_left>view>text {
+	height: 4vh;
+	text-align: center;
+	vertical-align: text-bottom;
+}
+
+.header_right>view {
+
+	width: 12vw;
+	font-size: 4vw;
+
+	text-align: center;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1vw;
+
+}
+
+.bodty {
+	height: 90vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	z-index: 9;
+	position: relative;
+}
+
+.bodty_left_bot,
+.bodty_right_bot {
+	width: 2vw;
+	height: 82vh;
+	margin: auto;
+
+}
+
+/* .bodty_middle_bot>div {
+	width: 17vw;
+	height: 17.8vw;
+	margin-left: 1vw;
+
+} */
+
+.bodty_middle_bot {
+	max-width: 81vw;
+	margin: auto;
+	/* max-height: 82vh; */
+	max-height: 39.6vw;
+	overflow: scroll;
+
+}
+
+.buttonGroup {
+	width: 17vw;
+	margin-top: 1vw;
+	height: 4.0vw;
+	line-height: 4.0vw;
+	text-align: center;
+	font-size: 1.8vw;
+	display: -webkit-inline-box;
+	flex-direction: row;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#popover>ul>li>a {
+	color: white;
+
+}
+
+.item_box {
+	display: flex;
+	width: 17vw;
+	height: 13.4vw;
+	line-height: 13.4vw;
+	text-align: center;
+	flex-direction: column;
+	font-size: 2.2vw;
+	color: white;
+	font-weight: 600;
+	border-radius: 8px;
+	vertical-align: middle;
+	position: relative;
+
+}
+
+.itemsImg {
+	border-radius: 0.5vw;
+	max-width: 18.8vw;
+	max-height: 14.2vw;
+	z-index: -1;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+}
+
+.item_title {
+	font-size: 16px;
+	position: relative;
+}
+
+.item_box>view {
+	/* margin-left: 1vw;*/
+}
+
+.item_line {
+	margin-left: 2vw;
+	width: 5vw;
+	height: 0.3vh;
+	margin-top: 3vh;
+	border-radius: 0.5vh;
+	background-color: white;
+}
+
+.item_box_middle {
+	width: 30vw;
+	margin-top: 1vh;
+	height: 15vh;
+	text-align: left;
+	opacity: 0.8;
+	font-size: 1.8vw;
+}
+
+.item_box_title {
+	width: 30vw;
+	margin-top: 2vh;
+	height: 4vh;
+	display: flex;
+	font-size: 2vw;
+	flex-direction: row;
+}
+
+/* .book_auther {
+	position: relative;
+	width: 15.2vw;
+	bottom: 20vw;
+	text-align: center;
+	line-height: 4vh;
+	height: 4vh;
+	font-size: 2vw;
+	font-weight: bold;
+	color: #000000
+}
+*/
+.book_auther {
+	-webkit-writing-mode: vertical-rl;
+	writing-mode: vertical-rl;
+	position: relative;
+	bottom: 30vw;
+	margin-left: 15vw;
+	font-size: 1.5vw;
+	font-weight: bold;
+	color: gray;
+	height: 10vw;
+
+}
+
+.up-date {
+	position: relative;
+	-webkit-writing-mode: tb-rl;
+	writing-mode: tb-rl;
+	bottom: 32vw;
+	height: 18vw;
+	/* 	left: 12vw; */
+	margin-left: 15vw;
+	font-size: 1.5vw;
+	font-weight: bold;
+	color: gray;
+
+}
+
+.up-date-res {
+	background-image: url(../../img/date_bg.png);
+	background-size: 100% 100%;
+	position: absolute;
+	width: 13.5vw;
+	height: 2.7vw;
+	line-height: 2.7vw;
+	margin-left: 1vw;
+	top: 3vw;
+	text-align: left;
+	font-size: 1vw;
+	font-weight: 400;
+	color: gray;
+	padding: 0 0.2vw
+}
+
+.coverBo {
+	display: inline-block;
+
+}
+
+.boxes_items {
+	width: 33.3vw;
+	height: 36.5vw;
+	position: relative;
+	vertical-align: middle;
+	text-align: center;
+	margin-top: 0.1vw;
+	flex-direction: column;
+	/* border: 1px solid#000; */
+}
+
+.boxes_items_item {
+	margin: 0 auto;
+	vertical-align: middle;
+	text-align: center;
+	max-width: 15.2vw;
+	min-width: 15.2vw;
+	height: 30.7vw;
+	margin-top: 1vw;
+	border-radius: 1.4vh;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	/* border: 1px solid red; */
+}
+
+.boxes_items_class {
+	margin: 0 auto;
+	vertical-align: middle;
+	text-align: center;
+	max-width: 22vw;
+	min-width: 22vw;
+	height: 30.3vw;
+	margin-top: 1vw;
+	border-radius: 1.4vh;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	/* background-image: url(../img/hsk.png); */
+	/* border: 1px solid red; */
+}
+
+.navBookImg {
+	width: 15.2vw;
+	height: 30.7vw;
+	/* border: 1px solid green; */
+	/* background-color: #d1ddf5; */
+}
+
+.expBookImg {
+	width: 22vw;
+	height: 30.3vw;
+}
+
+.middle_bot_boxes {
+	width: 100vw;
+	height: 50.5vw;
+	margin-top: 2vw;
+	margin:  auto;
+	padding-left: 18%;
+	overflow-x: scroll;
+	overflow-y: visible;
+	display: -webkit-box;
+	align-items: center;
+	flex-direction: row;
+	-webkit-box-align: center;
+	/* border: 1px solid blue; */
+}
+
+.uploadBox {
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	/* border: 1px solid#000; */
+
+}

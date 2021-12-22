@@ -1,0 +1,152 @@
+.userBox {
+/* 	position: fixed;
+	margin: auto; */
+	width: 35vw;
+	/*height: 27vw;*/
+	height: 22vw;
+	background-image: linear-gradient(0deg, #D8DFE9, #FEFEFE);
+	border-radius: 2vw;
+	display: flex;
+	flex-direction: column;
+	display: inline-block;
+	animation: flipInY 1s 1;
+	box-shadow: 0em 0em 2em grey;
+}
+
+.user_title {
+	width: 30vw;
+	height: 7vh;
+	margin-top: 4.5vw;
+	margin-left: 1vw;
+	text-align: center;
+	color: #9B97B1;
+	font-weight: 600;
+	animation: flipInX 1s 1;
+	border-bottom: 0.1vh solid #E7E7E8;
+}
+
+.user_infor_name {
+	padding: 2vw 1vw;
+	width: 27vw;
+	height: 3vw;
+	line-height: 3vw;
+	margin-left: 1vw;
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	 background-color: white;
+	border-radius: 1vw;
+
+
+}
+
+.user_infor_buttom {
+	width: 30vw;
+	height: 7vh;
+	margin-left: 3vw;
+	display: flex;
+	margin-top: 1vh;
+	flex-direction: row;
+	align-items: center;
+}
+
+.user_infor_item {
+	color: #C3C3C3;
+}
+
+.update_pass_button {
+	min-width: 8vw;
+	height: 4vh;
+	font-size: 2vw;
+	line-height: 4vh;
+	margin-left: 1vw;
+	color: #BBB9B9;
+	font-weight: 500;
+}
+
+.update_phone_box {
+	width: 38vw;
+	height: 28vw;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border-radius: 2vw;
+	flex-direction: column;
+	display: inline-block;
+	animation: flipInY 1s 1;
+	z-index: 9999;
+}
+
+.information {
+	margin: 0 auto;
+	width: 31vw;
+	height: 8vw;
+	/* margin-left: 3.5vw; */
+	border-radius: 1vw;
+	margin-top: 6vh;
+
+
+}
+
+.boundButton {
+	width: 7vw;
+	height: 3vw;
+	line-height: 3vw;
+	text-align: center;
+	border: 1px solid #7C7698;
+	text-align: center;
+	border-radius: 0.8vw;
+	color: #7C7698;
+	position: absolute;
+	float: right;
+	left: 22vw;
+	/* right: 1vw; */
+}
+
+.fillBox {
+	height: 0.5vh;
+	width: 32vw;
+
+}
+
+.clickEffict:active {
+	transform: scale(0.9);
+}
+
+.clickEffict1:hover {
+	transform: scale(0.9);
+}
+
+.popup_button1 {
+	margin: 0 auto;
+	width: 31vw;
+	height: 2.8vw;
+	margin-top: 2.8vw;
+	text-align: right;
+	line-height: 2.8vw;
+	display: flex;
+	position: relative;
+	flex-direction: row;
+}
+
+.popup_button1>view {
+	width: 14vw;
+	height: 4vw;
+	border-radius: 0.5vw;
+	color: white;
+	text-align: center;
+	line-height: 4vw;
+	letter-spacing: 0.2vw;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.update_quxiao1{
+	position: absolute;
+	left: 0;
+	background-image: url(../../ui/frameUi/cancel.png);
+}
+.update_confirm1{
+	position: absolute;
+	background-image: url(../../ui/frameUi/confirm.png);
+	right: 0;
+}

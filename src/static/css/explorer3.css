@@ -1,0 +1,442 @@
+.header_left {
+	width: 70vw;
+	height: 6.4vw;
+	overflow-y: hidden;
+	overflow-x: auto;
+	white-space: nowrap;
+}
+
+.header_right {
+	width: 25vw;
+	vertical-align: middle;
+	font-weight: 900;
+	color: #6A809F;
+	display: flex;
+
+}
+
+.header_title_box {
+	height: 4vw;
+	margin-left: 2vw;
+	display: inline-block;
+	line-height: 4vw;
+	min-width: 4vw;
+	text-align: justify;
+	display: inline-block;
+}
+
+.header_left>div {
+	width: 15vw;
+	height: 6.4vw;
+	text-align: center;
+	font-size: 2.2vw;
+	/* 	margin-left: 2vw; */
+	vertical-align: middle;
+	display: inline-block;
+	text-overflow: ellipsis;
+	/*文本超出隐藏*/
+	-o-text-overflow: ellipsis;
+	/*跟上面一样，只是为了兼容其他浏览器*/
+	overflow: hidden;
+	/*隐藏，跟text-overflow配合使用*/
+}
+
+.header_left>div>div {
+	text-align: center;
+	display: flex;
+	vertical-align: middle;
+	height: 6.4vq;
+	line-height: 6.4vw;
+	flex-direction: row;
+	/* justify-content: center; //子元素水平居中 */
+	align-items: center; //子元素垂直居中
+	display: -webkit-flex;
+}
+
+.line_box {
+	position: absolute;
+	border-bottom: 2px solid red;
+}
+
+.header_img_box {
+	width: 5.5vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header_img_box>span {
+	font-size: 3vw;
+	color: #6A809F;
+	font-weight: 300;
+}
+
+.header_title {
+	color: gray;
+	text-align: center;
+	font-weight: 700;
+	opacity: 0.5;
+	font-size: 1.8vw;
+}
+
+.header_title_unit {
+	color: #852720;
+}
+
+.header_title1 {
+
+	text-align: center;
+	font-weight: 700;
+	opacity: 1;
+	color: #822822;
+	width: 16vw;
+}
+
+.header_img {
+	width: 4vw;
+	height: 4vw;
+
+	margin-left: 0.5vw;
+	vertical-align: super;
+	opacity: 0.5;
+}
+
+.header_img1 {
+	opacity: 1;
+
+}
+
+.header_left>div>span {
+	height: 4vh;
+	text-align: center;
+	vertical-align: text-bottom;
+
+}
+
+.header_right>div {
+
+	width: 12vw;
+	font-size: 4vw;
+	margin-right: 1vw;
+	text-align: center;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1vw;
+}
+
+.bodty {
+	height: 90vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	z-index: 9;
+	position: relative;
+}
+
+.bodty_left_bot,
+.bodty_right_bot {
+	width: 2vw;
+	height: 82vh;
+	margin: auto;
+
+}
+
+/* .bodty_middle_bot {
+	max-width: 96vw;
+	margin: auto;
+	max-height: 82vh;
+	overflow: scroll;
+
+} */
+
+/* .bodty_middle_bot>div {
+	width: 18.8vw;
+	height: 19vw;
+	margin-left: 1vw;
+	margin-top: 1vw;
+	position: relative;
+	display: inline-block;
+
+} */
+/* 2020.4.1修改 */
+.bodty_middle_bot>div {
+	width: 17vw;
+	height: 17.8vw;
+	/* 	margin-left: 1vw; */
+	padding: 0vh 5vw;
+	margin-top: 1vw;
+	position: relative;
+	display: inline-block;
+
+}
+.bodty_middle_bot {
+	max-width: 81vw;
+	margin: auto;
+	/* max-height: 82vh; */
+	max-height: 39.6vw;
+	overflow: scroll;
+
+}
+
+/* .buttonGroup {
+	width: 17.8vw;
+	margin-top: 0.5vw;
+	height: 3.6vw;
+	margin-left: 0.5vw;
+	line-height: 3.6vw;
+	text-align: center;
+	font-size: 1.8vw;
+	display: -webkit-inline-box;
+	flex-direction: row;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+} */
+/* 2020.4.1修改 */
+.buttonGroup {
+	width: 17vw;
+	margin-top: 1vw;
+	height: 4.0vw;
+	line-height: 4.0vw;
+	text-align: center;
+	font-size: 1.8vw;
+	display: -webkit-inline-box;
+	flex-direction: row;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#popover>ul>li>a {
+	color: white;
+
+}
+/* 2020.4.1修改 */
+.item_box {
+	display: flex;
+	width:17vw;
+	height: 13.4vw;
+	text-align: center;
+	flex-direction: column;
+	font-size: 2.2vw;
+	color: white;
+	font-weight: 600;
+	border-radius: 8px;
+	position: relative;
+
+}
+.itemsImg {
+	border-radius: 0.5vw;
+	max-width: 18.8vw;
+	max-height: 14.2vw;
+	z-index: -1;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+}
+.item_title {
+	bottom: 0;
+	height: 5.4vw;
+	width: 17vw;
+	text-align: center;
+	font-size:2.2vw;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	position: absolute;
+	font-weight: 800;
+
+}
+
+.item_line {
+	margin-left: 2vw;
+	width: 5vw;
+	height: 0.3vh;
+	margin-top: 3vh;
+	border-radius: 0.5vh;
+	background-color: white;
+}
+
+.item_box_middle {
+	width: 30vw;
+	margin-top: 1vh;
+	height: 15vh;
+	text-align: left;
+	opacity: 0.8;
+	font-size: 1.8vw;
+}
+
+.item_box_title {
+	width: 30vw;
+	margin-top: 2vh;
+	height: 4vh;
+	display: flex;
+	font-size: 2vw;
+	flex-direction: row;
+}
+
+.item_box_bottom {
+	width: 30vw;
+	margin-top: 1vh;
+	text-align: left;
+	line-height: 4vh;
+	height: 4vh;
+	font-size: 1.5vw;
+}
+
+#popover {
+	position: absolute;
+	top: 12vh;
+	float: right;
+
+	right: 2vw;
+	background-color: #09233B;
+	height: 80vh;
+	max-width: 20vw;
+	min-width: 10vw;
+	overflow-y: scroll;
+
+}
+
+.tubiao {
+	width: 4vw;
+}
+
+.item_box_title1 {
+	width: 28vw;
+	height: 4vh;
+	text-overflow: ellipsis;
+	/*文本超出隐藏*/
+	-o-text-overflow: ellipsis;
+	/*跟上面一样，只是为了兼容其他浏览器*/
+	overflow: hidden;
+	line-height: 4vh;
+	text-align: left;
+}
+
+.item_box_bottom>span {
+	margin-right: 1vw;
+}
+.coverBox3 {
+	display: block;
+}
+.coverBox2 {
+	text-align: center;
+	font-size: 1.6vw;
+	display: block;
+	color: white;
+	line-height: 3.6vw;
+	letter-spacing: 0.4vw;
+}
+
+.coverBoxDel {
+	text-align: center;
+	font-size: 1.4vw;
+	display: block;
+	color: #872521;
+	line-height: 6vh;
+	letter-spacing: 0.4vw;
+	border: 0.4vh solid #7E2C27;
+	border-radius: 1vh;
+}
+
+.cover_progress_box>div {
+	height: 6vh;
+}
+
+.cover_progress_bar {
+	width: 14vw;
+	border-radius: 0.2vh;
+}
+.cover_download_box {
+	width: 3.6vw;
+	background-color: #667D99;
+	border-radius: 0.4vh;
+}
+
+.cover_percentage {
+	width: 13vw;
+	height: 6vh;
+	position: absolute;
+	line-height: 6vh;
+	text-align: center;
+	color: #707F95;
+	font-weight: 600;
+}
+
+.cover_progress_bar1 {
+	width: 2vw;
+	height: 7vh;
+	/* position: absolute;
+	margin-top: -1vh; */
+	background-color: #E4831A;
+}
+
+.download_img {
+	width: 2.7vw;
+	margin-left: 0.4vw;
+	margin-top: 0.5vh;
+}
+
+.downButPng:active {
+	width: 2vw;
+
+}
+
+
+.cover_progress_bar_sc {
+	width: 13vw;
+	height: 3.2vw;
+	border-top: 0.2vw solid #7E2C27;
+	border-bottom: 0.2vw solid #7E2C27;
+	border-left: 0.2vw solid #7E2C27;
+	border-top-left-radius: 1vh;
+	border-bottom-left-radius: 1vh;
+	display: flex;
+	flex-direction: row;
+	overflow: hidden;
+
+}
+
+.downloaButs {
+	width: 14vw;
+	height: 3.6vw;
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+}
+
+.downloaButs>div {
+	width: 3vw;
+	height: 6vh;
+	border: 1px solid white;
+	border-radius: 1vh;
+	margin-left: 1vw;
+}
+
+.downButBox {
+	width: 4vw;
+	height: 3.6vw;
+	background-color: #8D2223;
+	border-top-right-radius: 1vh;
+	border-bottom-right-radius: 1vh;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.downButPng {
+	width: 2vw;
+}
+
+.coverBo {
+	display: inline-block;
+
+}

@@ -1,0 +1,320 @@
+.header_left {
+	min-width: 70vw;
+	height: 6.5vw;
+	margin-left: 5vw;
+	overflow-y: hidden;
+	overflow-x: auto;
+	white-space: nowrap;
+	display: flex;
+	align-items: center;
+}
+
+.header_right {
+	min-width: 12vw;
+	max-width: 30vw;
+	display: flex;
+	vertical-align: middle;
+	font-weight: 900;
+	color: #6A809F;
+}
+.header_right_img>image  {
+	width: 80%;
+}
+.header_title_box {
+	height: 4vw;
+	margin-left: 2vw;
+	display: inline-block;
+	line-height: 4vw;
+	min-width: 4vw;
+	text-align: justify;
+}
+
+.header_left>view {
+	/*width: 16.4vw;*/
+	height: 5.9vw;
+	text-align: left;
+	font-size: 2.2vw;
+	/* 	margin-left: 2vw; */
+	vertical-align: middle;
+	/*display: inline-block;*/
+	text-overflow: ellipsis;
+	/*文本超出隐藏*/
+	-o-text-overflow: ellipsis;
+	/*跟上面一样，只是为了兼容其他浏览器*/
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+
+	/*隐藏，跟text-overflow配合使用*/
+}
+
+.back {
+	margin-left: 2vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.header_left>view>view {
+	text-align: center;
+	display: flex;
+	vertical-align: middle;
+	height: 5.9vw;
+	flex-direction: row;
+	/* justify-content: center; //子元素水平居中 */
+	align-items: center; 
+	display: -webkit-flex;
+}
+
+.line_box {
+	position: absolute;
+	border-bottom: 2px solid red;
+}
+
+.header_img_box {
+	width: 6.5vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header_img_box>text {
+	font-size: 3vw;
+	color: #6A809F;
+	font-weight: 300;
+}
+
+.header_title {
+	color: gray;
+	text-align: center;
+	font-weight: 700;
+	opacity: 0.5;
+	font-size: 1.8vw;
+}
+.header_title1 {
+	text-align: center;
+	font-weight: 700;
+	opacity: 1;
+
+
+}
+
+.progress_box_title {
+	margin-top: 0.5vh;
+}
+
+.header_title2 {
+	text-align: center;
+	font-weight: 700;
+	opacity: 1;
+	font-size: 2.2vw;
+	color: #822822;
+}
+
+.app_course_title {
+	font-weight: 600;
+	opacity: 1;
+	font-size: 2.2vw;
+	color: #822822;
+}
+
+.header_img {
+	width: 4vw;
+	margin-left: 0.5vw;
+	vertical-align: super;
+	opacity: 0.5;
+}
+
+.header_img1 {
+	opacity: 1;
+	width:100%;
+}
+
+.header_left>view>span {
+	height: 4vh;
+	text-align: center;
+	vertical-align: text-bottom;
+}
+
+.header_right>view {
+	width: 12vw;
+	float: right;
+	font-size: 4vw;
+	margin-right: 1vw;
+	text-align: center;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.bodty {
+	height: 89.8vh;
+	width: 100vw;
+	display: flex;
+	z-index: 9;
+	flex-direction: row;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	position: absolute;
+}
+
+.bodty_left_bot,
+.bodty_right_bot {
+	width: 5vw;
+	z-index: 999;
+	height: 82vh;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+
+}
+
+.bodty_left_bot {
+	left: 5vw;
+}
+
+.bodty_right_bot {
+	float: right;
+	right: 5vw;
+}
+
+.bodty_left_bot>image,
+.bodty_right_bot>image {
+	width: 14vw;
+}
+
+.bodty_middle_bot {
+	max-width: 96vw;
+	margin: auto;
+	max-height: 82vh;
+	overflow: scroll;
+
+}
+
+.bodty_middle_bot>view {
+	width: 30vw;
+	height: 16.9vw;
+	margin-left: 1vw;
+	margin-top: 1vw;
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+
+}
+
+.bookImg {
+	max-width: 30vw;
+	border-radius: 0.5vw;
+	max-height: 16.9vw;
+	position: relative;
+
+}
+
+#popover>ul>li>a {
+	color: white;
+}
+
+.item_box {
+	display: flex;
+	height: 16.9vw;
+	position: absolute;
+	top: 0;
+	flex-direction: column;
+	font-size: 1vw;
+	/* color: white; */
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+}
+
+.item_box>view {
+
+	margin-left: 2vw;
+}
+
+.item_box>image {
+	width: 30vw;
+	height: 32vh;
+	z-index: -1;
+	position: absolute;
+
+}
+
+.item_line {
+	margin-left: 2vw;
+	width: 5vw;
+	height: 0.3vh;
+	margin-top: 3vh;
+	border-radius: 0.5vh;
+	background-color: white;
+}
+
+.item_box_middle {
+	width: 30vw;
+	margin-top: 1vh;
+	height: 10vh;
+	text-align: left;
+	opacity: 0.8;
+	font-size: 1.8vw;
+}
+
+.item_box_title {
+	width: 30vw;
+	margin-top: 2vh;
+	height: 4vh;
+	display: flex;
+	font-size: 2vw;
+	flex-direction: row;
+}
+
+.item_box_bottom {
+	width: 30vw;
+	margin-top: 1vh;
+	text-align: left;
+	line-height: 4vh;
+	height: 4vh;
+	font-size: 1.5vw;
+}
+
+#popover {
+	position: absolute;
+	top: 12vh;
+	float: right;
+	right: 2vw;
+	background-color: #09233B;
+	height: 80vh;
+	max-width: 20vw;
+	min-width: 10vw;
+	overflow-y: scroll;
+
+}
+
+.tubiao {
+	width: 4vw;
+}
+
+.item_box_title1 {
+	width: 28vw;
+	height: 4vh;
+	text-overflow: ellipsis;
+	/*文本超出隐藏*/
+	-o-text-overflow: ellipsis;
+	/*跟上面一样，只是为了兼容其他浏览器*/
+	overflow: hidden;
+	line-height: 4vh;
+	text-align: left;
+}
+
+.item_box_bottom>text {
+	margin-right: 1vw;
+}
+
+
+

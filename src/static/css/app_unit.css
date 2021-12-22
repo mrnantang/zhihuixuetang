@@ -1,0 +1,161 @@
+.right_box_header {
+    text-align: center;
+    line-height: 6vh;
+    height: 6vh;
+
+}
+
+.right_box_boxes {
+    height: 100vh;
+    overflow-y: scroll;
+    font-size:0;
+    border-left: 1px solid rgba(192, 192, 192, 0.5);
+}
+.item_unit{
+	background-image: url(../../ui/guoyue/course/cardbj.png);
+}
+.item_unit>view{
+    border: 1px solid transparent;
+}
+
+.right_box_boxes > view {
+    width: 18vw;
+    height: 16.9vw;
+    border-radius: 1vw;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    position: relative;
+    display:inline-block;
+    zoom:1;
+    overflow: hidden;
+    font-size: 1.2vw;
+    -moz-box-shadow: 2px 2px 5px #333333;
+    -webkit-box-shadow: 2px 2px 5px #333333;
+    box-shadow: 2px 2px 5px #333333;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#item_mask {
+    width: 18vw;
+    height: 16.9vw;
+    background-color: gray;
+    opacity: 0.2;
+    margin-left: 0vw;
+    border-radius: 1vw;
+    position: absolute;
+}
+
+.right_box_boxes > view > view {
+    width: 16vw;
+    margin-left: 1vw;
+    height: 4vw;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+.item_unit_header {
+    height: 4vw;
+    width: 18vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.item_unit_sno {
+    width: 16vw;
+    height: 3.8vw;
+    line-height: 5.6vw;
+}
+
+.item_bottom {
+    width: 16vw;
+    height: 3.8vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.progress_box {
+    width: 12vw;
+    height: 1vw;
+    background-color: gray;
+    border-radius: 0.5vw;
+    position: absolute;
+    bottom: 1vh;
+}
+
+.progress_box1 {
+    width: 12vw;
+    height: 1vw;
+    color: grey;
+    opacity: 0.7;
+    position: absolute;
+    bottom: 0;
+}
+.progress_box_bar {
+    height: 1vw;
+    width: 6vw;
+    border-radius: 0.5vw;
+    background-color: white;
+}
+.downImg {
+    position: absolute;
+    float: right;
+    right: 0;
+    top: 0;
+    width: 3.2vw;
+    height: 3.2vw;
+}
+
+.item_unit_sno > image {
+    width: 3.2vw;
+    height: 3.8vw;
+    margin-top: 0.3vw;
+}
+
+.item_unit_sno > text {
+    float: right;
+    opacity: 0.3;
+    font-size: 1.8vw;
+}
+
+.item_unit_title {
+    text-align: left;
+    font-size: 2vw;
+    line-height: 4vw;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+.item_unit_desc {
+    overflow-y: auto;
+    font-size: 1.4vw;
+    opacity: 0.8;
+    text-align: left;
+    height:4.5vw;
+}
+
+.item_unit_snoBox {
+    width: 3.8vw;
+    height: 3.8vw;
+    line-height: 3.8vw;
+    margin-top: 0.3vw;
+    float: right;
+    border-radius: 50px;
+    text-align: center;
+    background-color: #FFFFFF;
+    font-size: 2vw;
+    color: #BFBFBE;
+}
+
+#activebox{
+    -moz-user-select: all;
+   -webkit-user-select: all;
+    -ms-user-select: all;
+    -khtml-user-select: all;
+    user-select: all;
+}
+

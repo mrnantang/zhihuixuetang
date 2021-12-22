@@ -1,0 +1,329 @@
+.res_boxes {
+    width: 77vw;
+    height: 68vh;
+    margin-top: 2vh;
+    overflow-y: scroll;
+}
+
+
+/**
+ * 文本区展示的css代码开始
+ */
+#textBox {
+    overflow-y: scroll;
+    width: 78vw;
+    height: 64vh;
+    background-color: white;
+}
+.video_mark{
+    top: 0;
+    left: 0;
+    z-index: 9;
+    background-color: black;
+}
+
+/**
+ * 文本区域css代码结束
+ */
+.res_screen {
+    width: 78vw;
+    height: 0vh;
+    margin-top: 6vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.res_screen_left {
+    width: 32vw;
+    height: 6vh;
+    font-size: 1.8vw;
+    line-height: 6vh;
+
+}
+
+.res_screen_right {
+    width: 46vw;
+    height: 6vh;
+    line-height: 6vh;
+}
+
+.res_screen_left > text {
+    width: 6vw;
+    height: 3.5vh;
+    text-align: center;
+}
+
+.res_screen_left_span {
+    margin-left: 2.5vw;
+}
+
+.res_item_title {
+    width: 10vw;
+    word-wrap: break-word;
+    max-height: 8vh;
+    word-break: break-all;
+    font-size: 1.5vw;
+    overflow: hidden;
+    padding-top: 2vh;
+    padding-left: 0.5vw;
+    margin-left: 3.5vw;
+    text-overflow:ellipsis;/*设置超出部分显示...*/
+    -o-text-overflow:ellipsis;
+    overflow-y: hidden;
+}
+
+res_item_title::after {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-left: 40px;
+    background: -webkit-linear-gradient(left, transparent, #fff 55%);
+    background: -o-linear-gradient(right, transparent, #fff 55%);
+    background: -moz-linear-gradient(right, transparent, #fff 55%);
+    background: linear-gradient(to right, transparent, #fff 55%);
+}
+
+.right_item_img {
+    width: 14vw;
+    height: 2vh;
+    margin-left: 0.5vw;
+    margin-top: 1vh;
+}
+
+.right_item_img > image {
+    width: 2.8vw;
+    height: 2.8vw;
+}
+
+.imgbox {
+    text-align: center;
+}
+.img_boxes {
+    position: relative;
+    max-width: 78vw;
+    max-height: 48vh;
+    border-radius: 0.5vw;
+    animation: bounceIn 1s 1 linear;
+    -moz-box-shadow: 0px 0em 1em #000000;
+    -webkit-box-shadow: 0px 0em 1em #000000;
+    box-shadow: 0px 0em 1em #000000;
+
+}
+.img_box {
+    max-width: 78vw;
+    max-height: 48vh;
+    border-radius: 0.5vw;
+    padding-left: constant(safe-area-inset-left);
+    padding-left: env(safe-area-inset-left);
+}
+
+.resource_title {
+    position: absolute;
+}
+
+.itemImgBox {
+    width: 15vw;
+    height: 14vw;
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    border-radius: 1vw;
+}
+
+.res_boxes_box {
+    width: 78vw;
+    height: 48vh;
+}
+
+.videoBox {
+    width: 78vw;
+}
+
+.res_boxes > view {
+    width: 78vw;
+    height: 65vh;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+.imgMask {
+    width: 78vw;
+    position: absolute;
+    background-color: #000000;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.imgMaska {
+    width: 78vw;
+    position: absolute;
+    background-color: #000000;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+/*使图片在浏览器中居中显示*/
+.bigImg {
+    position: absolute;
+    width: 100%;
+}
+
+.bigImg1 {
+    width: 100vw;
+    max-height: 500vh;
+    position: absolute;
+    top: 50%;
+    /*margin-top: -44px;*/
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*遮罩层*/
+.opacityBottom {
+    /*margin-top: 44px;*/
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: black;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+}
+
+.close {
+    position: fixed;
+    z-index: 10001;
+    margin-top: 5px;
+    /*margin-right: 10px;*/
+    /*float: right;*/
+}
+
+.img_boxes_big {
+    width: 98vw;
+    height: 96vh;
+    margin-left: 1vw;
+    z-index: 999;
+    top: 1vh;
+    position: absolute;
+    border-radius: 0.5vw;
+    animation: line_hover 0.5s 1;
+    -moz-box-shadow: 0px 0em 1em #000000;
+    -webkit-box-shadow: 0px 0em 1em #000000;
+    box-shadow: 0px 0em 1em #000000;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.imgBigMask {
+    position: absolute;
+    width: 100vw;
+    background-color: #000000;
+    opacity: 0.3;
+    z-index: 99;
+    height: 98vh;
+}
+
+#closeIcon {
+    position: absolute;
+    font-size: 6vw;
+    z-index: 99999;
+    left: 94vw;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+}
+
+.imgBoxSpan {
+    font-size: 2.5vw;
+    position: absolute;
+    z-index: 9999;
+    left: 73vw;
+    top: 40vh;
+    cursor: pointer;
+    animation: bounceInLeft 1s infinite ease-in-out;
+}
+.screenBut {
+    position: fixed;
+    right: 0vw;
+    z-index: 9999999999;
+}
+.left_box_boxes1 {
+    height: 85vh;
+    overflow-y: scroll;
+    margin-top: 0.5vw;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-left: constant(safe-area-inset-left);
+    padding-left: env(safe-area-inset-left);
+}
+
+.li_first {
+    width: 18vw;
+    display: flex;
+    margin-top: 2vh;
+    flex-direction: column;
+}
+
+.li_box {
+    width: 18vw;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.li_box > view {
+    height: 5vh;
+
+}
+
+.li_title {
+    width: 14vw;
+    font-size: 1.6em;
+    line-height: 5vh;
+    padding-right: 1vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.li_icon {
+    text-align: center;
+    color: blue;
+    width: 4vw;
+    font-size: 1.5em;
+
+}
+
+.li_nav_box {
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.li_nav > view {
+    width: 18vw;
+    height: 5vh;
+    color: #0062CC;
+    font-size: 1.8em;
+    border: 1px solid gray;
+}
+
+.li_nav_box > view {
+    height: 7vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 7vh;
+    font-size: 1.4vw;
+}
+.audio_header{
+    width: 78vw;
+    height: 5vh;
+    border: 1px solid red;
+}
